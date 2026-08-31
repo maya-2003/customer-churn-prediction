@@ -1,0 +1,127 @@
+{
+  "numeric_features": {
+    "Age_clean": {
+      "min": 26.0,
+      "max": 73.0,
+      "median": 46.0,
+      "step": 0.47
+    },
+    "Dependent_count": {
+      "min": 0.0,
+      "max": 5.0,
+      "median": 2.0,
+      "step": 1.0
+    },
+    "Total_Relationship_Count": {
+      "min": 1.0,
+      "max": 6.0,
+      "median": 4.0,
+      "step": 1.0
+    },
+    "Months_Inactive_12_mon": {
+      "min": 0.0,
+      "max": 6.0,
+      "median": 2.0,
+      "step": 1.0
+    },
+    "Contacts_Count_12_mon": {
+      "min": 0.0,
+      "max": 6.0,
+      "median": 2.0,
+      "step": 1.0
+    },
+    "Credit_Limit_clean": {
+      "min": 1438.3,
+      "max": 34516.0,
+      "median": 4559.0,
+      "step": 330.777
+    },
+    "Total_Revolving_Bal": {
+      "min": 0.0,
+      "max": 2517.0,
+      "median": 1267.0,
+      "step": 1.0
+    },
+    "Avg_Utilization_Ratio": {
+      "min": 0.0,
+      "max": 0.999,
+      "median": 0.172,
+      "step": 0.01
+    },
+    "Total_Amt_Chng_Q4_Q1": {
+      "min": 0.0,
+      "max": 3.397,
+      "median": 0.735,
+      "step": 0.034
+    },
+    "Total_Trans_Amt": {
+      "min": 510.0,
+      "max": 18484.0,
+      "median": 3882.0,
+      "step": 1.0
+    },
+    "Total_Trans_Ct": {
+      "min": 10.0,
+      "max": 139.0,
+      "median": 67.0,
+      "step": 1.0
+    },
+    "Total_Ct_Chng_Q4_Q1": {
+      "min": 0.0,
+      "max": 3.714,
+      "median": 0.7,
+      "step": 0.0371
+    }
+  },
+  "categorical_features": {
+    "Education_Level_clean": {
+      "options": [
+        "Graduate",
+        "High School",
+        "Uneducated",
+        "Unknown",
+        "College",
+        "Post-Graduate",
+        "Doctorate",
+        "Missing"
+      ],
+      "default": "Graduate"
+    },
+    "Marital_Status_clean": {
+      "options": [
+        "Married",
+        "Single",
+        "Unknown",
+        "Divorced"
+      ],
+      "default": "Married"
+    },
+    "Income_Category_clean": {
+      "options": [
+        "Less than $40K",
+        "$40K - $60K",
+        "$80K - $120K",
+        "$60K - $80K",
+        "Unknown",
+        "$120K +"
+      ],
+      "default": "Less than $40K"
+    },
+    "Card_Category_clean": {
+      "options": [
+        "Blue",
+        "Silver",
+        "Missing",
+        "Gold",
+        "Platinum"
+      ],
+      "default": "Blue"
+    }
+  },
+  "risk_thresholds": {
+    "high": 0.9865706014913649,
+    "medium": 0.004160590014269792
+  },
+  "training_rows": 11525,
+  "churn_rate": 0.16702819956616052
+}
